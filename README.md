@@ -1,25 +1,36 @@
 🧾 Bill Generation System (Spring Boot)
+
 A complete backend system built using Spring Boot that handles product management, billing, payment processing, and customer notifications (SMS, Email, WhatsApp).
 
 🚀 Features
 📦 Product Management (Add / View Products)
+
 🧾 Bill Generation with GST Calculation
+
 👤 Customer Management
+
 💳 Payment Confirmation System
+
 📩 Notifications:
-SMS (Twilio)
-Email (SMTP)
-WhatsApp Integration
+  SMS (Twilio)
+  Email (SMTP)
+  WhatsApp Integration
+  
 📉 Stock Management (Auto deduction)
+
 ⚠️ Stock validation (Out of stock handling)
 
+
 🏗️ Project Architecture
+
 This project follows a clean layered architecture:
+
 Controller → Service → Repository → Database
     ↓
 DTO / Model
 
 Controller → Handles API requests
+
 Service → Business logic
 Repository → Database operations
 Model → Entity classes
